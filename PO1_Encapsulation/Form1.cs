@@ -7,6 +7,9 @@ namespace PO1_Encapsulation
             InitializeComponent();
         }
 
+        Personnage joueur = new Personnage();
+        Personnage monstre = new Personnage(); 
+
         private void btn_attaquer_Click(object sender, EventArgs e)
         {
 
